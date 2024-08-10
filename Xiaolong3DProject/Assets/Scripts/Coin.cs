@@ -11,6 +11,7 @@ public class Coin : MonoBehaviour
         {
             Instantiate(coinFX, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            other.gameObject.GetComponent<Player>().coinNum++;
         }
     }
 

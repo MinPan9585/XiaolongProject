@@ -1,22 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public float speed;
-    //int(integer), float
+    public int coinNum = 0;
+    public Text coinText;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        transform.position = new Vector3(0, 0.5f, 0);
+        coinText.text = "Coins: " + coinNum;    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        transform.position = transform.position + new Vector3(0, 0, speed);
-        transform.position += new Vector3(0, 0, speed);
-    }
 }
