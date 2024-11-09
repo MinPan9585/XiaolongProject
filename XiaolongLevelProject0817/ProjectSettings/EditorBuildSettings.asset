@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RunLV1_0810.unity
     guid: 196fe7a9df90d324eb8d356e9538819a
+  - enabled: 1
+    path: Assets/Scenes/RunLV2_0817.unity
+    guid: 16a97c3cc57601a4ebe41fd569e368ff
   m_configObjects: {}
